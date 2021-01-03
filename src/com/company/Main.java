@@ -11,8 +11,8 @@ public class Main {
 	// write your code here
         int[] array =  {5,3,1,2,4};
         printArray(array);
-        SelectionSort s=new SelectionSort();
-        s.selectionSort(array,array.length);
+        InsertionSort insertionSort = new InsertionSort();
+        insertionSort.sort(array,array.length);
         printArray(array);
     }
 }
