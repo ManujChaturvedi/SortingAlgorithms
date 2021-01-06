@@ -11,8 +11,8 @@ public class Main {
 	// write your code here
         int[] array =  {5,3,1,2,4};
         printArray(array);
-        SelectionSort selectionSort = new SelectionSort();
-        selectionSort.sort(array,array.length);
+        QuickSort quickSort = new QuickSort();
+        quickSort.sort(array,0, array.length-1);
         printArray(array);
     }
 }

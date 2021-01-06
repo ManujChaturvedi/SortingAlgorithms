@@ -2,7 +2,6 @@ package com.company;
 
 public class SelectionSort {
 
-
     HelperFunctions hf = new HelperFunctions();
 
     public void sort(int[] arr,int n){
