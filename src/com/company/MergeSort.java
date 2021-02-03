@@ -9,7 +9,7 @@ public class MergeSort {
         int tempIndex = 0;
         int[] temp = new int[end-start];
         while (i<mid && j<end){
-            temp[tempIndex++] = arr[i]>arr[j]?arr[i++]:arr[j++];
+            temp[tempIndex++] = arr[i]>=arr[j]?arr[i++]:arr[j++];
         }
         System.arraycopy(arr,i,arr,start+tempIndex,mid-i);
         System.arraycopy(temp,0,arr,start,tempIndex);

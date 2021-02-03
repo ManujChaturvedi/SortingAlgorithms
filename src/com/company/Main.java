@@ -1,5 +1,7 @@
 package com.company;
 
+import java.util.Arrays;
+
 public class Main {
 
     public static void printArray(int[] arr){
@@ -9,10 +11,11 @@ public class Main {
 
     public static void main(String[] args) {
 	// write your code here
-        int[] array =  {5,3,1,2,4};
+        int[] array =  {8,5,3,7,5};
         printArray(array);
         MergeSort mergeSort = new MergeSort();
         mergeSort.sort(array,0, array.length);
         printArray(array);
+//        Arrays.toString(array);
     }
 }
